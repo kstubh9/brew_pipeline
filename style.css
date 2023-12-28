@@ -99,6 +99,12 @@ header ul li a
 {
   max-width: 340px;
 }
+
+/* .content .imgBox img.brew {
+  max-width: 340px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
 .thumb
 {
   position: absolute;
