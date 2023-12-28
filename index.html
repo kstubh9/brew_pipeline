@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  some changes to be made: change colors of learn more button and brew. also if possible make the main image drop shadow.
   <section>
     <div class="circle"></div>
     <header>
@@ -23,14 +24,14 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non odit nesciunt doloremque exercitationem voluptate expedita, assumenda hic esse, quibusdam qui corporis harum eaque, quaerat quod recusandae architecto similique amet debitis?</p>
         <a href="#">Learn More</a>
         </div>
-      <div class="imgBox">
-        <img src="/images/vanilla_frappe_tilt.png" class="brew">
+      <div class="imgBox" id="imageContainer">
+        <img src="/images/vanilla_frappe_tilt.png" class="brew" id="mainImage">
       </div>
     </div>
     <ul class="thumb">
-      <li><img src="/images/choco_frappe_1-removebg-preview.png"></li>
-      <li><img src="/images/strawberry_frappe_crop-removebg-preview.png"></li>
-      <li><img src="/images/vanilla_frappe_crop-removebg-preview.png""></li>
+      <li onclick="changeImage('images/choco_frappe_1_tilt.png', '#8a6652')"><img src="/images/choco_frappe_1-removebg-preview.png"></li>
+      <li onclick="changeImage('images/strawberry_frappe_tilt.png', '#f8ac9f')"><img src="/images/strawberry_frappe_crop-removebg-preview.png"></li>
+      <li onclick="changeImage('images/vanilla_frappe_tilt.png', '#dfc8a5')"><img src="/images/vanilla_frappe_crop-removebg-preview.png""></li>
     </ul>
     <ul class="social">
       <li><a href="#"><img src="/images/facebook.png"></a></li>
@@ -38,5 +39,10 @@
       <li><a href="#"><img src="/images/twitter.png"></a></li>
     </ul>
   </section>
+  <script>
+    function changeImage(newImageUrl, circleColor) {
+      document.getElementById('mainImage').src = newImageUrl;
+      document.querySelector('.circle').style.backgroundColor = circleColor;    }
+  </script>
 </body>
 </html>
