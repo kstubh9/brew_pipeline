@@ -26,5 +26,5 @@ This project showcases an end-to-end DevOps pipeline for fictitious 'Brew' Coffe
 
 - **`/`:** Contains the HTML, CSS, and JavaScript code for the 'Brew' Coffeehouse landing page, Jenkinsfile for scripted pipelines, Dockerfile for building image.
 
-test
+
 
