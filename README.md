@@ -20,7 +20,7 @@ This project showcases an end-to-end DevOps pipeline for fictitious 'Brew' Coffe
 
 - **EKS Cluster and ArgoCD Integration:** Utilized AWS EKS for efficient Kubernetes cluster management and ArgoCD for automated deployment orchestration.
 
-- **Manifest Repository:** Manifest files for ArgoCD are maintained in a separate repository: [landing-page-k8s-manifest](https://github.com/kstubh9/landing-page-k8s-manifest).
+- **Manifest Repository:** Manifest files for ArgoCD are maintained in a separate repository: [BREW MANIFESTS](https://github.com/kstubh9/brew_manifests).
 
 ## Project Structure
 
